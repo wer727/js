@@ -9,8 +9,7 @@
 
 [rewrite_local]
 # 请将 /path/to/your/local/qx_free_limit_script_optimized.js 替换为您在设备上保存此文件的实际路径
-^http:\/\/www\.keweimeng\.com\/kwmtzzy\/public\/getLimitFree url script-response-body /path/to/your/local/qx_free_limit_script_optimized.js
-
+^http:\/\/www\.keweimeng\.com\/kwmtzzy\/public\/getLimitFree url script-response-body https://github.com/wer727/js/blob/main/qx_free_limit_script_optimized.js
 [mitm]
 hostname = www.keweimeng.com
 
