@@ -7,7 +7,7 @@
 **************************************
 
 [rewrite_local]
-^http:\/\/www\.keweimeng\.com\/kwmtzzy\/product\/getTheoryProduct url script-response-body https://raw.githubusercontent.com/wer727/js/main/membership_script.js
+^http:\/\/www\.keweimeng\.com\/kwmtzzy\/product\/getTheoryProduct\?appType=3&applyType=3&level=231&proviceId=53 url script-response-body https://raw.githubusercontent.com/wer727/js/main/membership_script.js
 
 [mitm]
 hostname = www.keweimeng.com
